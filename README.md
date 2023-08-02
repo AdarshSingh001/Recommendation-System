@@ -4,13 +4,12 @@ Amazon Fashion Recommendation System
 
 This project utilizes the Amazon Fashion public dataset to build a product recommendation system for clothing items. The dataset contains product metadata, reviews, ratings, and images across categories like Men's Fashion, Women's Fashion, Kid's Fashion, etc.
 
-I implemented collaborative filtering and content-based algorithms to generate personalized product recommendations. The collaborative filter analyzes historical user data to find customers with similar interests and recommend relevant products. The content-based system recommends similar items based on product descriptions, images, and other metadata.
+I implemented content-based algorithms to generate personalized product recommendations. The collaborative filter analyzes historical user data to find customers with similar interests and recommend relevant products. The content-based system recommends similar items based on product descriptions, images, and other metadata.
 
 Key techniques used include:
 
 - Data cleaning and preprocessing 
-- Feature extraction from product text and images
-- Matrix factorization for collaborative filtering
+- Feature extraction from product text and images.
 - Cosine similarity matrix for content-based recommendations
 - Evaluation metrics like precision, recall, and F1 score
 
